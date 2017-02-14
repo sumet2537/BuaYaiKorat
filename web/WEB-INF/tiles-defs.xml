@@ -16,9 +16,13 @@
         <put name="header" value="/layout/header.jsp" />
         <put name="menu"   value="/layout/menu.jsp" />
         <put name="body"   value="/layout/body.jsp" />
-         <put name="content"   value="/layout/content.jsp" />
+        <put name="content"   value="/layout/content.jsp" />
         <put name="footer"   value="/layout/footer.jsp" />
     </definition>
+    <!--For Admin-->
+    <definition name="gotoLoginAdmin" path="/pages/admin/login.jsp">
+    </definition>
+    
     <!--END-->
 
     <definition name="${YOUR_DEFINITION_HERE}">
